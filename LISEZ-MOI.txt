@@ -1,0 +1,27 @@
+# Le Rosaire du Disciple du Seuil
+
+Application web installable (PWA), conçue pour iPhone. Mode de prière : progression par dizaine. Apparence : sombre, vert monastique et ivoire.
+
+## Contenu
+- Texte du document fourni : préface, calendrier, 20 méditations, intentions, dispositions et prières finales.
+- Navigation tactile par dizaine (mode B).
+- Liens vers les références bibliques sur AELF et vers les offices.
+- Sauvegarde locale de la dernière dizaine consultée.
+- Mise en cache des fichiers de l'application après le premier chargement.
+
+## Installation sur iPhone
+Cette application doit être publiée sur une adresse HTTPS pour être ajoutée à l'écran d'accueil et bénéficier du mode PWA. Le moyen gratuit proposé : GitHub Pages.
+
+1. Créer gratuitement un compte sur https://github.com/ si nécessaire.
+2. Créer un nouveau dépôt public, par exemple `rosaire-disciple-du-seuil`.
+3. Décompresser cette archive et envoyer tous les fichiers et le dossier éventuel à la racine du dépôt (index.html doit être à la racine).
+4. Dans le dépôt : Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+5. Attendre la publication ; GitHub fournit une adresse HTTPS du type `https://VOTRE-PSEUDO.github.io/rosaire-disciple-du-seuil/`.
+6. Sur l'iPhone, ouvrir cette adresse dans Safari → bouton Partager → Ajouter à l'écran d'accueil → activer « Ouvrir comme app » si l'option apparaît → Ajouter.
+
+## Notes
+- L'application elle-même est gratuite et ne demande aucun compte. GitHub Pages héberge gratuitement les sites statiques publics.
+- Les méditations et prières sont intégrées à l'application. L'ouverture d'AELF nécessite une connexion Internet.
+- Le bouton AELF de chaque dizaine ouvre le chapitre biblique correspondant ; il peut être nécessaire de choisir les versets exacts sur le site.
+- La progression est enregistrée sur cet iPhone dans le stockage local du navigateur. Ne pas effacer les données Safari si l'on souhaite la conserver.
+- Le texte des prières traditionnelles d'ouverture (Credo, Notre Père, Je vous salue Marie, Gloire au Père, Salve Regina) n'a pas été ajouté intégralement : le document source les nomme mais n'en reproduit pas les textes.
